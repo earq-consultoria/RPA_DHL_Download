@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>dhl-dtentry-requestit</id>
+    <version>2.3.18</version>
+    <title>dhl-dtentry-requestit</title>
+    <authors>rpa0dtentry4</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Download request it files.</description>
+    <releaseNotes>[PROD] - Atualizado valor do seletor dinamico tableIdx para 12</releaseNotes>
+    <tags>VisualBasic VB UiPathStudioProcess</tags>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="UiPath.Credentials.Activities" version="[2.0.0]" />
+        <dependency id="UiPath.Excel.Activities" version="[2.20.3]" />
+        <dependency id="UiPath.Mail.Activities" version="[1.20.3]" />
+        <dependency id="UiPath.System.Runtime.Windows" version="[23.4.4]" />
+        <dependency id="UiPath.UIAutomation.Activities.Runtime" version="[23.4.8]" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
