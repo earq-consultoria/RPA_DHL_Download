@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>883.3333333333334,3242.6666666666665</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>883.3333333333334,3794.6666666666665</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Initialization_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="60">
@@ -92,7 +92,7 @@
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Description: Open and initialize application as needed.&#xA;&#xA;Pre Condition: N/A&#xA;Post Condtion: Applications opened" DisplayName="Initialization Sequence" sap:VirtualizedContainerService.HintSize="608,3178" sap2010:WorkflowViewState.IdRef="Sequence_9">
+  <Sequence sap2010:Annotation.AnnotationText="Description: Open and initialize application as needed.&#xA;&#xA;Pre Condition: N/A&#xA;Post Condtion: Applications opened" DisplayName="Initialization Sequence" sap:VirtualizedContainerService.HintSize="608,3730" sap2010:WorkflowViewState.IdRef="Sequence_9">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="bLinkOpen" />
     </Sequence.Variables>
@@ -630,7 +630,7 @@
         </Sequence>
       </If.Else>
     </If>
-    <Sequence sap2010:Annotation.AnnotationText="[FIX] 21/11/2024: Tratativa para novo pop-up que surgiu" sap:VirtualizedContainerService.HintSize="546,115.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_35">
+    <Sequence sap2010:Annotation.AnnotationText="[FIX] 21/11/2024: Tratativa para novo pop-up que surgiu" sap:VirtualizedContainerService.HintSize="472,667.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_35">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="isAnalyticsOpen" />
       </Sequence.Variables>
@@ -643,7 +643,7 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:UiElementExists DisplayName="Element Exists 'DIV'" Exists="[isAnalyticsOpen]" sap:VirtualizedContainerService.HintSize="410,107.33333333333333" sap2010:WorkflowViewState.IdRef="UiElementExists_9">
         <ui:UiElementExists.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8fa25928-6db9-4a8a-8255-5053564a0f45" InformativeScreenshot="a03cc3e7468681e2d8e45c5ef80d25da" Selector="&lt;html app='chrome.exe' title='ServiceNow' /&gt;&lt;webctrl tag='MACROPONENT*' /&gt;&lt;webctrl shadowhostid='' tag='SN-CANVAS-UCM' /&gt;&lt;webctrl shadowhostid='' tag='NOW-MODAL' /&gt;&lt;webctrl aria-role='dialog' css-selector='div&amp;gt;div' shadowhostid='' tag='DIV' class='now-modal -md is-opened' /&gt;&lt;webctrl aria-role='document' shadowhostid='' tag='DIV' visibleinnertext='Enable Analytics' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8fa25928-6db9-4a8a-8255-5053564a0f45" InformativeScreenshot="a03cc3e7468681e2d8e45c5ef80d25da" Selector="&lt;html app='chrome.exe' title='*ServiceNow*' /&gt;&lt;webctrl tag='MACROPONENT*' /&gt;&lt;webctrl shadowhostid='' tag='SN-CANVAS-UCM' /&gt;&lt;webctrl shadowhostid='' tag='NOW-MODAL' /&gt;&lt;webctrl aria-role='dialog' css-selector='div&amp;gt;div' shadowhostid='' tag='DIV' class='now-modal -md is-opened' /&gt;&lt;webctrl aria-role='document' shadowhostid='' tag='DIV' visibleinnertext='Enable Analytics' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -673,7 +673,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="537306f6-7697-46b9-ab60-af52b25f6879" InformativeScreenshot="5c02a3b272bb11b53ee9b6a773249ae0" Selector="&lt;html app='chrome.exe' title='ServiceNow' /&gt;&lt;webctrl tag='MACROPONENT*' /&gt;&lt;webctrl shadowhostid='' tag='SN-CANVAS-UCM' /&gt;&lt;webctrl shadowhostid='' tag='NOW-MODAL' /&gt;&lt;webctrl id='now-modal-close-button' shadowhostid='' tag='NOW-BUTTON-ICONIC' /&gt;&lt;webctrl shadowhostid='now-modal-close-button' tag='NOW-ICON' /&gt;&lt;webctrl shadowhostid='' tag='path' /&gt;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="537306f6-7697-46b9-ab60-af52b25f6879" InformativeScreenshot="5c02a3b272bb11b53ee9b6a773249ae0" Selector="&lt;html app='chrome.exe' title='*ServiceNow*' /&gt;&lt;webctrl tag='MACROPONENT*' /&gt;&lt;webctrl shadowhostid='' tag='SN-CANVAS-UCM' /&gt;&lt;webctrl shadowhostid='' tag='NOW-MODAL' /&gt;&lt;webctrl id='now-modal-close-button' shadowhostid='' tag='NOW-BUTTON-ICONIC' /&gt;&lt;webctrl shadowhostid='now-modal-close-button' tag='NOW-ICON' /&gt;&lt;webctrl shadowhostid='' tag='path' /&gt;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
